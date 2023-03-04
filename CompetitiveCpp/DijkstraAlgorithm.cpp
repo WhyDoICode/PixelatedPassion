@@ -62,7 +62,6 @@ void DijkstraShortestDestination(vector<vector<_pair>>& adjNode, int destination
     while (!pq.empty()) {
         int u = pq.top().second;
         pq.pop();
-
         if (u == destination) {
             return;
         }
